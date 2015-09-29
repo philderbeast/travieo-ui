@@ -1,0 +1,80 @@
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+    text-shadow: none !important;
+}
+
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+    text-shadow: none !important;
+}
+
+.datepicker-inline {
+    width: 100% !important;
+    position: relative;
+    background: #fff;
+    padding-top: 4px !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.datepicker-inline table {
+    width: 100%;
+    border: 0;
+    border-collapse: collapse !important;
+    border-spacing: 0 !important;
+}
+
+.datepicker-inline tbody {
+    margin-top: -1px;
+}
+
+.datepicker table tr td span, .alert {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.datepicker-inline tbody td,
+.datepicker-inline thead th {
+    width: 14%;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px 0 8px !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.datepicker-inline tbody .day {
+    background: #fff;
+    cursor: pointer;
+}
+
+.datepicker-inline tbody .disabled,
+.datepicker-inline tbody .inact,
+.dow.inact {
+    background: #f0f0f0 !important;
+}
+
+.datepicker-inline tbody .inact {
+    color: #f0f0f0 !important;
+}
+
+.datepicker-inline tbody .disabled,
+.datepicker-inline tbody .inact,
+.datepicker-inline thead .inact {
+    cursor: not-allowed !important;
+}
+
+.datepicker .inact thead tr:first-child th:hover {
+    background: #ffffff;
+}
+
+.datepicker-inline tbody .disabled.active,
+.datepicker-inline thead .inact {
+    color: #c9c9c9 !important;
+}
